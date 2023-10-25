@@ -1,2 +1,4 @@
 #mp4 do not commit
 *.mp4
+
+.idea/

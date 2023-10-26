@@ -11,7 +11,7 @@ class MyBarLogger(ProgressBarLogger):
     def bars_callback(self, bar, attr, value, old_value = None):
         if bar != 't' or old_value is None:
             return
-        percentage = (value/ self.bars[bar]["total"]) * 100
+        percentage = (value/self.bars[bar]["total"]) * 100
         #print(bar, attr, value, old_value, percentage)
         progressbar["value"] = percentage
         # video_lable_text = str(percentage)
